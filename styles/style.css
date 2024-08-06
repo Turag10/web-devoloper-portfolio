@@ -1,74 +1,159 @@
-
-
-
-nav{
-    display: flex;
-}
-
-
 .open-sans-normal {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:"wdth" 100;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
-.dark-2{
+
+.dark-2 {
     color: #474747;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FD6E0A;
     font-size: 20px;
     font-weight: bold;
     color: white;
     padding: 18px 25px;
-     border-radius: 5px;
-     border: none;
+    border-radius: 5px;
+    border: none;
 }
-.header{
-    background-image:url('../images/developer.png'), url('../images/header_bg.png');
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-des {
+    font-size: 18px;
+    color: #757575;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
-.text-primary{
+
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
+.text-primary {
     color: coral;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 200px;
+    margin: 0 200px;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
-    font: size 45px; ;
+    font-size: 45px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-right: 50px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     font-size: 20px;
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     max-width: 580px;
 }
-.banner-greetings{
+
+.banner-greetings {
     font-size: 45px;
     font-weight: 600;
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 80px;
 }
-.banner-profile-pic{
-width: 580px;
+
+.banner-profile-pic {
+    width: 580px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about-item {
+    margin: 20px;
+}
+
+.item-des {
+    font-weight: 600;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.skill {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.skill img {
+    width: 100px;
+    height: 100px;
+}
+
+.skill-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.skill{
+    font-size: 16px;
+    padding:30px ;
+    box-shadow: 0px 6px 50px 0px black;
+    color: #757575;
+    border-radius: 5px;
 }
